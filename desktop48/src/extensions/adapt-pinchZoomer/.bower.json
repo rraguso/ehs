@@ -1,0 +1,29 @@
+{
+  "name": "adapt-pinchZoomer",
+  "repository": "https://github.com/sarveshwar-gavhane/adapt-pinchZoomer.git",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/adaptlearning/adapt-pinchZoomer",
+  "authors": [
+    "Sarveshwar Gavhane <sarveshwar.gavhane@exultcorp.com>"
+  ],
+  "displayName": "pinchZoomer",
+  "extension": "pinchZoomer",
+  "description": "",
+  "main": "/js/adapt-pinchZoomer.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_extension",
+  "_release": "e7f5e3309c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e7f5e3309cc868360c97423c28fd2d2cef97d5ef"
+  },
+  "_source": "git://github.com/sarveshwar-gavhane/adapt-pinchZoomer.git",
+  "_target": "*",
+  "_originalSource": "adapt-pinchZoomer",
+  "_direct": true
+}

@@ -1,0 +1,26 @@
+{
+  "name": "adapt-double-accordion",
+  "repository": "git://github.com/simondate/adapt-double-accordion.git",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/simondate/adapt-double-accordion",
+  "issues": "https://github.com/simondate/adapt-double-accordion/issues",
+  "description": "An accordion component that displays clickable titles, which reveal display text",
+  "main": "/js/adapt-contrib-double-accordion.js",
+  "displayName": "Double Accordion",
+  "component": "doubleaccordion",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "62a6b4875e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "62a6b4875ea18e31c0e64a61622d5a4fa29035cd"
+  },
+  "_source": "git://github.com/simondate/adapt-double-accordion.git",
+  "_target": "*",
+  "_originalSource": "adapt-double-accordion",
+  "_direct": true
+}

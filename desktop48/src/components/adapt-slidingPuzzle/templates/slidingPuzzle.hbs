@@ -1,0 +1,34 @@
+{{! Maintainers - Dennis Heaney}}
+<div class="slidingPuzzle-inner component-inner">
+  {{#if title}}
+  <div class="slidingPuzzle-title component-title">
+    <h4 class="slidingPuzzle-title-inner component-title-inner">
+      {{{title}}}
+    </h4>
+  </div>
+  {{/if}}
+  {{#if body}}
+  <div class="slidingPuzzle-body component-body">
+    <div class="slidingPuzzle-body-inner component-body-inner">
+      {{{body}}}
+    </div>
+  </div>
+  {{/if}}
+  <div class="slidingPuzzle-widget component-widget">
+    <div class="slidingPuzzle-item item">
+      <div class="slidingPuzzle-puzzle"></div>
+      <img class="slidingPuzzle-source-graphic" src="" data-large="{{graphic.large}}" data-medium="{{graphic.medium}}" data-small="{{graphic.small}}" />
+    </div>
+    <a href="#" class="button reset">
+      <span>
+        {{{buttons.reset}}}
+      </span>
+    </a>
+    <a href="#" class="button model">
+      <span>
+        {{{buttons.showCorrectAnswer}}}
+      </span>
+    </a>
+  </div>
+</div>
+

@@ -1,0 +1,45 @@
+.slidingPuzzle-component {
+
+  .slidingPuzzle-widget {
+
+    .button {
+      outline: none;
+      text-decoration: none;
+      padding: @button-padding;
+      color: @button-text-color;
+      background-color: @button-color;
+      display: none;
+      margin-top:8px;
+    }
+
+    .slidingPuzzle-item {
+      padding-bottom: @button-padding-top;
+    }
+
+    .slidingPuzzle-puzzle {
+      position: relative;
+    }
+
+    .slidingPuzzle-tile {
+      position: absolute;
+      transition-property: left, top, opacity;
+      transition-duration: 0.25s;
+
+      img {
+        max-width: none;
+        position: absolute;
+      }
+
+    }
+
+    img.slidingPuzzle-source-graphic {
+      visibility: hidden;
+      position: absolute;
+      top:0;
+      left:0;
+    }
+
+  }
+
+}
+

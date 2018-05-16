@@ -1,0 +1,63 @@
+[
+	{
+		"_id": "co-05",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "It’s in the Details: Completing an Accident Report",
+		"displayTitle": "It’s in the Details",
+		"body": "This section is about completing the <b>Employee Accident, Injury or Illness Report. </b>",
+		"pageBody": "",
+		"instruction": "",
+		"_graphic": {
+			"src": "course/en/images/menua1.png",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"duration": "8 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "co-10",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Hazard Communication",
+		"displayTitle": "Hazard Communication",
+		"body": "This section is about your right to know about the toxic substances at your worksite.",
+		"pageBody": "",
+		"instruction": "",
+		"_graphic": {
+		"src": "course/en/images/Muneb2.png",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"duration": "8 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "co-15",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Universal Precautions",
+		"displayTitle": "Universal Precautions",
+		"body": "This section is about Universal Precautions and Bloodborne Pathogen Exposure Control.",
+		"pageBody": "",
+		"instruction": "",
+		"_graphic": {
+		"src": "course/en/images/Menuc3.png",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"duration": "8 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_

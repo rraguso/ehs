@@ -1,0 +1,23 @@
+{
+  "_id": "c-30",
+  "_parentId": "b-15",
+  "_type": "component",
+  "_component": "slidingPuzzle",
+  "_classes": "",
+  "_layout": "left",
+  "title": "A sliding puzzle",
+  "body": "Click/touch a tile to move it",
+  "dimension": 3,
+  "allowSkip": false,
+  "graphic": {
+    "alt": "alt text",
+    "title": "title text",
+    "large": "course/en/images/puzzle.jpg",
+    "medium": "course/en/images/puzzle.jpg",
+    "small": "course/en/images/puzzle.jpg"
+  },
+  "buttons":{
+    "reset":"Reset",
+    "showCorrectAnswer":"Show Answer"
+  }
+}

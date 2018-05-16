@@ -1,0 +1,6 @@
+{
+    "directory": "src/plugins",
+    "registry": "https://adapt-bower-repository.herokuapp.com/",
+	"strict-ssl": false
+
+}

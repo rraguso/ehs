@@ -1,0 +1,18 @@
+{
+  "name": "adapt-slidingPuzzle",
+  "version": "0.1.4",
+  "displayName": "Sliding Puzzle",
+  "component": "slidingPuzzle",
+  "authors": [
+    "Dennis Heaney <dennis@learningpool.com>"
+  ],
+  "description": "An html5 sliding puzzle component",
+  "main": "/js/adapt-slidingPuzzle.js",
+  "repository": "git://github.com/dennis-learningpool/adapt-slidingPuzzle.git",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "homepage": "https://github.com/dennis-learningpool/adapt-slidingPuzzle"
+}

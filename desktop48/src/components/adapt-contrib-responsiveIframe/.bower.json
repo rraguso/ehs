@@ -1,0 +1,27 @@
+{
+  "name": "adapt-contrib-responsiveIframe",
+  "version": "1.0.3",
+  "homepage": "https://github.com/LearningPool/adapt-contrib-responsiveIframe",
+  "authors": [
+    "Kevin Corry <kevinc@learningpool.com>"
+  ],
+  "description": "Allows embedded content inside an iframe tag that will respond to theme breakpoints.",
+  "main": "/js/adapt-contrib-responsiveIframe.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "displayName": "Responsive IFrame",
+  "component": "responsiveIframe",
+  "license": "GPLv3",
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.3",
+    "commit": "179bb127aaba215fc9e54f389d579cb63adc58db"
+  },
+  "_source": "git://github.com/LearningPool/adapt-contrib-responsiveIframe.git",
+  "_target": "^1.0.3",
+  "_originalSource": "adapt-contrib-responsiveIframe",
+  "_direct": true
+}

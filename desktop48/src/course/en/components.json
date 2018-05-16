@@ -1,0 +1,308 @@
+[
+	{
+  "_id":"c-05",
+  "_parentId":"b-05",
+  "_type":"component",
+  "_component":"accordion",
+  "_classes":"",
+  "_layout":"left",
+  "title": "Oh no.  You’ve been injured at work. </p> Now what?",
+  "displayTitle": "Oh no. <br> You’ve been injured at work.<br>  Now what?",
+  "body": "Select the headings below to reveal the next steps.",
+  "instruction": "",
+  "_shouldCollapseItems": false,
+  "_items": [
+    {
+      "title": "Step #1",
+      "body": "Take the same immediate steps you would take if you were injured anywhere else.<br> Evaluate the seriousness of your injury and get the medical attention you need, especially if you have serious or life threatening injuries.Your safety and well-being are top priorities.<br><br>But there are 2 additional steps you must take following a workplace injury."
+	  },
+    {
+      "title": "Step #2",
+      "body": "You must inform your manager."
+    },
+    {
+      "title": "Step #3",
+      "body": "You must start the reporting process to document the details of the accident, your injuries, and treatment you received or will seek."
+      }
+  ]
+},
+	{
+		"_id": "c-10",
+		"_parentId": "b-05",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-10",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/osha2.png",
+			"small": "course/en/images/osha2.png",
+			"alt": "Placeholder graphic.",
+			"attribution": ""
+		},
+		"_pinchZoomer": {
+                  "_isEnabled": true,
+                  "_mobileInstructionText":"Please Double tap to Zoom in the Image"
+           }
+	},
+	{
+		"_id": "c-15",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "slider",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 2,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_showNumber": true,
+		"_showScaleIndicator": true,
+		"_showScale": true,
+		"_scaleStart": 50,
+		"_scaleEnd": 250,
+		"_scaleStep": 10,
+		"title": "Slider",
+		"displayTitle": "Anyone can have an accident. . .",
+		"body": "Last year, how many accident reports were submitted from employees?",
+		"instruction": "Drag the slider to make your choice and select Submit.",
+		"labelStart": "",
+		"labelEnd": "",
+		"_correctAnswer": "",
+		"_correctRange": {
+			"_bottom": 130,
+			"_top": 140
+		},
+		"_feedback": {
+			"title": "Feedback",
+			"correct": "Correct",
+			"_incorrect": {
+				"not final":"That's not right. Try again.",
+				"final": "Actually, there were 135 accident reports submitted by employees."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+    "_id": "c-20",
+    "_parentId": "b-15",
+    "_type": "component",
+    "_component": "doubleaccordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Pets",
+    "displayTitle": "Pets",
+    "body": "When looking for a pet there is a large amount of decisions that need to be made. What speices do you want? What kind of breed do you want.",
+    "instruction": "Click on the header to view the species of pets and then click on the secondary headers to explore the breeds of those pets.",
+    "_items": [
+        {
+            "title": "Dog",
+            "body": "Dogs or Canis familiaris are very loyal pets. They can very easily be trained by humans to perform tricks or tasks.",
+            "_child": [
+                {
+                    "childTitle": "Pug",
+                    "childBody": "Pugs are usually very short with a wrinkly, short-muzzled face and a curved tail.",
+                    "_childGraphic": "course/en/images/pug.jpg"
+                },
+                {
+                    "childTitle": "Shiba Inu",
+                    "childBody": "Shiba Inu are very independent dogs.",
+                    "_childGraphic": "course/en/images/shiba.jpg"
+                },
+                {
+                    "childTitle": "German Shepherd",
+                    "childBody": "German Shepherds are very large and intelligent dogs. They are often used by the police.",
+                    "_childGraphic": "course/en/images/germanshepherd.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Cats",
+            "body": "Cats or Felis catus are another popular choice as a pet. They are known to be very lazy cats that sleep for many hours of the day.",
+            "_child": [
+                {
+                    "childTitle": "Scottish Fold",
+                    "childBody": "Scottish folds have a very 'owl-like' appearance."
+                },
+                {
+                    "childTitle": "Bengal cat",
+                    "childBody": "The Bengal cat was bred to resemble the looks of more wild cats like Leopards and Ocelots."
+                }
+            ]
+        },
+        {
+            "title": "Alligators",
+            "body": "Alligators are very dangerous! It's not recommended to keep them as pets!",
+            "_graphic": {
+                "src": "course/en/images/alligator.jpg",
+                "alt": ""
+            }
+        }
+    ],
+	"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+},
+{
+		"_id": "c-25",
+		"_parentId": "b-20",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"title": "Hand-Washing",
+		"displayTitle": "Correct Hand-Washing Technique",
+		"body": "The narrative component lets you scroll through a series of images each with some accompanying text.<br><br>This component is always spanned.",
+		"instruction": "Select the arrows to find out more.",
+		"mobileInstruction": "Select the arrows followed by the plus icon to find out more.",
+		"_items": [{
+				"title": "Narrative item 1",
+				"body": "Narratives are particularly good for showing dialogue between two or more characters, with each step of the conversation being accompanied by an image. This photo story approach can be used to provide context for the learning to follow, to illustrate real-world application of the learning or to show the impact on people when the learning hasn’t been applied correctly.",
+				"_graphic": {
+					"src": "course/en/images/hw1.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 1"
+			}, {
+				"title": "Narrative item 2",
+				"body": "Narratives can also be used to present case studies, where the different displays are used to set the scene, show the key events and then the outcome.",
+				"_graphic": {
+					"src": "course/en/images/hw2.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 2"
+			}, {
+				"title": "Narrative item 3",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw3.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 3"
+			}, {
+				"title": "Narrative item 4",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw4.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 4"
+			}, {
+				"title": "Narrative item 5",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw5.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 5"
+			}, {
+				"title": "Narrative item 6",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw6.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 6"
+			}, {
+				"title": "Narrative item 7",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw7.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 7"
+			}, {
+				"title": "Narrative item 8",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw8.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 8"
+			}, {
+				"title": "Narrative item 9",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw9.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 9"
+			}, {
+				"title": "Narrative item 10",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw10.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 10"
+			}, {
+				"title": "Narrative item 11",
+				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"_graphic": {
+					"src": "course/en/images/hw11.png",
+					"alt": "Placeholder graphic."
+				},
+				"strapline": "Narrative item 11"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+{
+		"_id": "c-30",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the blank component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-35",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "blank",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-20"
+	},
+{
+		"_id": "c-40",
+		"_parentId": "b-30",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Text",
+		"displayTitle": "Text",
+		"body": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the blank component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-45",
+		"_parentId": "b-30",
+		"_type": "component",
+		"_component": "blank",
+		"_classes": "",
+		"_layout": "right",
+		"title": "c-20"
+	}
+]

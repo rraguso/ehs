@@ -1,0 +1,1 @@
+define(["underscore"],function(){var c=0;return function(e){var t={};return c++,_.each(e,function(e,n){var r=["stub",n.replace(/\//g,"_"),c].join("_");t[n]=r,define(r,function(){return e})}),require.config({context:"context_"+c,map:{"*":t},baseUrl:require.s.contexts._.config.baseUrl})}});

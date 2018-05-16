@@ -1,0 +1,30 @@
+{
+  "name": "adapt-NYBC-vanilla",
+  "repository": "git://github.com/rraguso/adapt-nybc-vanilla.git",
+  "framework": "3.0.0",
+  "homepage": "https://github.com/rraguso/adapt-nybc-vanilla",
+  "authors": [
+    "Rick Raguso rraguso@nybc.org"
+  ],
+  "displayName": "NYBC",
+  "theme": "nybc",
+  "description": "New theme for NYBC courses",
+  "main": "js/vanilla.js",
+  "keywords": [
+    "adapt-theme",
+    "adapt-plugin"
+  ],
+  "license": "GPLv3",
+  "private": false,
+  "ignore": [],
+  "_release": "6ffc24b1c3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6ffc24b1c34a353caf742fd24be9d97051cfedfd"
+  },
+  "_source": "git://github.com/rraguso/adapt-nybc-vanilla.git",
+  "_target": "*",
+  "_originalSource": "adapt-NYBC-vanilla",
+  "_direct": true
+}
